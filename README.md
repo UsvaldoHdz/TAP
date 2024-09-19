@@ -1,9 +1,7 @@
 
 
 COMPONENTE 
-! Para invocar el botón de ACCESIBILIDAD es de la siguiente manera !
-
-
+Para invocar el botón de ACCESIBILIDAD es de la siguiente manera 
 <help-button
   email="soporte@example.com"
   phone="+987654321"
