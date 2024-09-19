@@ -14,7 +14,7 @@ COMPONENTE
 
 
 NOTIFICACIÓN
-
+EJEMPLO DE COMO EMPEARLA EN UN BOTÓN 
  <!-- Botón que dispara una notificación de éxito -->
     <button class="btn btn-primary" data-notify data-type="success" data-message="Producto agregado al carrito!" data-duration="3000">
         <h5>Agregar al carrito</h5>
