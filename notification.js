@@ -48,24 +48,21 @@ const NotificationLib = (() => {
 
     // Función para crear una notificación
     function createNotification(type, message, duration = 3000) {
-        // Crear un div para la notificación
         const notification = document.createElement('div');
         notification.classList.add('notification', type);
         notification.innerText = message;
-
-        // Agregar la notificación al body
+    
         document.body.appendChild(notification);
-
-        // Mostrar la notificación (con la clase "show")
+    
         setTimeout(() => {
             notification.classList.add('show');
-        }, 100); // Pequeño retraso para permitir la transición
-
-        // Eliminar la notificación después de un tiempo (automáticamente)
+        }, 100); 
+    
         setTimeout(() => {
             closeNotification(notification);
-        }, duration + 1000);
+        }, duration); // Ya no se suman 1000ms adicionales
     }
+    
 
     // Función para cerrar la notificación
     function closeNotification(notification) {
