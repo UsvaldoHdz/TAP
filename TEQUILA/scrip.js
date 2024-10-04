@@ -120,3 +120,8 @@ searchInput.addEventListener('keyup', function(event) {
 
  // Llamar a la función inmediatamente por si ya hay secciones visibles
  revealSections();
+
+
+
+ /*carrouse*/
+ 

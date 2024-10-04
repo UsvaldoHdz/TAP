@@ -40,13 +40,13 @@ class HelpButton extends HTMLElement {
     style.textContent = `
       .help-button-container {
         position: fixed;
-        bottom: 20px;
-        right: 20px;
+        bottom: 40px;
+        right: 40px;
       }
       button {
         background-color: #4CAF50;
         color: white;
-        padding: 10px 20px;
+        padding: 20px 30px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -57,7 +57,7 @@ class HelpButton extends HTMLElement {
       .help-menu {
         display: none;
         position: absolute;
-        bottom: 50px;
+        bottom: 80px;
         right: 0;
         background-color: white;
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);

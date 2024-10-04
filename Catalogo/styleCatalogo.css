@@ -249,3 +249,54 @@ body {
 .form-group button:hover {
     background-color: rgb(120, 120, 253);
 }
+
+/* CARROUSEL DE IMAGENES*/
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Ajusta este valor según tus necesidades */
+    max-height: 300px; /* Mantén una proporción cuadrada */
+  }
